@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+body, html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #222;
+  height: 100%;
+  margin: 0;
+  color: white;
+  font-family: "Roboto";
+}
+
+.game {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  border: solid 5px #fff;
+}
+
+.game .board {
+  background-color: #ffab2d;
+}
+
+.game .ball {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.game .info {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #222;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.game .info button {
+  border: none;
+  padding: 10px 20px;
+}
+
+.game .grade {
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

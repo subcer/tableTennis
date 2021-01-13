@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900')
+@mixin flexCenter
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  
+body,html
+  +flexCenter 
+  background-color: #222
+  height: 100%
+  margin: 0
+  color: white
+  font-family: "Roboto"
+.game
+  width: 500px
+  height: 500px
+  position: relative
+  border: solid 5px #fff
+  .board
+    background-color: #ffab2d
+    //border-radius: 10px
+  .ball
+    background-color: #fff
+    border-radius: 10px
+  .info
+    width: 100%
+    height: 100%
+    position: absolute
+    left: 0
+    top: 0
+    background-color: #222
+    color: white
+    +flexCenter
+    button
+      border: none
+      padding: 10px 20px
+  .grade    
+    padding: 10px
